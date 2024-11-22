@@ -7,5 +7,27 @@
 }
 
 body{
-    background-image: url('https://i.ytimg.com/vi/n0gRWvbJKww/maxresdefault.jpg');
+    background-size: cover;
+    background-image: url('https://www.disfordisney.com/wp-content/uploads/2020/07/andy_s_room_with_the_tardis_by_quells_d4dm9du-fullview.jpg');
+}
+
+.center{
+    text-align: center;
+    padding-top: 2em;
+}
+img{
+    padding-left: 2em;
+}
+
+button{
+    margin-top: 1em;
+}
+
+h1{
+    font-size: 4em;
+}
+#message{
+    font-size: 2em;
+    margin-top: 4em;
+    margin-left: 2em;
 }
