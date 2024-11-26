@@ -1,33 +1,62 @@
-.shake{
-    animation: shake 1s;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-@keyframes shake{
-    0% { transform: translate(4px, 4px) rotate(0deg);}
-    10% { transform: translate(4px, 4px) rotate(-1deg);}
-}
-
 body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(https://www.disfordisney.com/wp-content/uploads/2020/07/andy_s_room_with_the_tardis_by_quells_d4dm9du-fullview.jpg);
     background-size: cover;
-    background-image: url('https://www.disfordisney.com/wp-content/uploads/2020/07/andy_s_room_with_the_tardis_by_quells_d4dm9du-fullview.jpg');
 }
+.ball{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputfield{
+    display: flex;
+    justify-content: center;
+}
+input{
+    position: absolute;
+    top: 65vh;
+    padding: 15px 50px 15px 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: left;
+    border: 0;
 
-.center{
-    text-align: center;
-    padding-top: 2em;
 }
-img{
-    padding-left: 2em;
+input:focus{
+    outline: 2px solid red;
 }
-
 button{
-    margin-top: 1em;
+    position: absolute;
+    top: 75vh;
+    padding: 10px 80px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #5582c6;
+    color: white;
+    border: 2px solid rgb(18, 0, 31);
 }
+button:hover{
+    background-color: black
+}
+button:active{
+    background-color: #5582c6;
+}
+#response{
+    width: 70px;
+    colo
 
-h1{
-    font-size: 4em;
-}
-#message{
-    font-size: 2em;
-    margin-top: 4em;
-    margin-left: 2em;
-}
+}Smarttechtip
