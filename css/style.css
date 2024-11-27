@@ -57,6 +57,18 @@ button:active{
 }
 #response{
     width: 70px;
-    colo
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 120px;
 
-}Smarttechtip
+}
+.whitesurface{
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
